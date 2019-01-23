@@ -1,8 +1,8 @@
 <?php
 class JConfig {
+	/*CÓDIGO MODIFICADO*/
 	public $offline = '0';
 	public $offline_message = 'Este sitio está cerrado por tareas de mantenimiento.<br />Por favor, inténtelo nuevamente más tarde.';
-	public $display_offline_message = '1';
 	public $offline_image = '';
 	public $sitename = 'NE-2019';
 	public $editor = 'tinymce';
@@ -12,17 +12,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $debug_lang_const = '1';
-	public $dbtype = 'mysqli';
-	public $host = 'localhost';
-	public $user = 'root';
-	public $password = 'root';
-	public $db = 'ne2-2019';
-	public $dbprefix = 'ne_';
-	public $live_site = '';
-	public $secret = 'zZsABBMqQXsGO1bn';
-	public $gzip = '0';
-	public $error_reporting = 'default';
-	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
+	
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = '';
